@@ -1,9 +1,9 @@
 version: 0.2
 
 phases:
-  preBuild:
+  pre_build:
     commands:
-      - npm install
+      - npm install sass
   build:
     commands:
       - npm run build
