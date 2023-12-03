@@ -1,0 +1,36 @@
+span.context {
+    strong.bold-word {
+  
+    }
+  }
+  
+  div.node-container {
+    background-color: rgba(243, 255, 255, 0.568);
+
+    .node-detailes{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        p.display-text {
+            white-space: nowrap;
+            overflow: hidden;
+            width: 700px;
+            a {
+        
+            }
+          }
+    }
+  
+    div.children-container {
+        padding-left: 10px;
+        border-left: 0.5px groove rgba(79, 79, 79, 0.384);
+        margin-left: 20px;
+      urlnode {
+  
+      }
+    }
+  }
+
+  .none{
+    display: none;
+  }
