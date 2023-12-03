@@ -2,6 +2,8 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 16.x
     commands:
       - npm ci
   build:
@@ -10,5 +12,9 @@ phases:
 
 artifacts:
   files:
-    - "**/*"
-  base-directory: build
+    - '**/*'
+  base-directory: 'build'
+
+  cache:
+    paths:
+      - 'node_modules/**/*'
